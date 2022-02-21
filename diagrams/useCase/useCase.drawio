@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="XKChx3mu4P1cbXN4DGbn" name="UseCase">
-        <mxGraphModel dx="1148" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1054" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="A01-User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="170" width="30" height="60" as="geometry"/>
+                <mxCell id="2" value="A01-Public User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="170" width="30" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="200" y="120" width="640" height="650" as="geometry"/>
@@ -28,19 +28,8 @@
                 <mxCell id="9" value="Change information in the profile" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="310" y="650" width="140" height="70" as="geometry"/>
                 </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram id="DHVxgD6Js6V5Da5tFzuD" name="Users">
-        <mxGraphModel dx="1054" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-            <root>
-                <mxCell id="YsNZr8AGFSSo_qZuZ6k1-0"/>
-                <mxCell id="YsNZr8AGFSSo_qZuZ6k1-1" parent="YsNZr8AGFSSo_qZuZ6k1-0"/>
-                <mxCell id="nU-zcgmrnhJS-dWarWtc-1" value="Usuario&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="YsNZr8AGFSSo_qZuZ6k1-1">
-                    <mxGeometry x="250" y="140" width="30" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="nU-zcgmrnhJS-dWarWtc-2" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="YsNZr8AGFSSo_qZuZ6k1-1">
-                    <mxGeometry x="250" y="280" width="30" height="60" as="geometry"/>
+                <mxCell id="10" value="A02-Private User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="445" width="30" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
